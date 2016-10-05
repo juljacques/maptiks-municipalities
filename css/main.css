@@ -1,0 +1,83 @@
+/* CSS to make changes */
+
+
+/* coloiurs
+
+Dark background: #38474F
+
+*/
+
+#tf-intro {
+    background-color: #38474F;
+}
+
+.service .media-left i.fa {
+    background-color: #2F8FB0;
+}
+
+.service .media-right i.fa {
+    background-color: #2F8FB0;
+}
+
+.progress-bar {
+    background-color: #2F8FB0;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+#tf-home h1 {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 70px; 
+}
+
+#tf-intro img.intro-logo {
+    height: 50px;
+}
+
+.process i.fa {
+    background-color: #2F8FB0;
+}
+
+.highlight {
+    color: #2F8FB0;
+}    
+
+.lead  {
+    font-size: 30px;
+}
+
+.contact-detail i.fa {
+    background-color: #2F8FB0;
+}
+
+.panel-heading {
+    border-color: #2F8FB0;
+}
+
+.price.featured.panel-default > .panel-heading {
+    background-color: #2F8FB0;
+}
+
+.featured .tf-btn {
+    margin-top: 20px;
+}
+.color {
+    background-color: #2F8FB0;
+    border-color: #2F8FB0;
+}
+
+.price.featured.panel-default {
+    border-color: #2F8FB0;
+}
+
+.featured .panel-body, .featured.panel-default > .panel-heading {
+    border-color: #2F8FB0;
+}
