@@ -6,6 +6,21 @@
 Dark background: #38474F
 
 */
+.box .hover-text i.fa {
+    background: #38474F;
+}
+
+.nivo-lightbox-theme-default .nivo-lightbox-image img {
+    background: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-top: 4px solid #38474F;
+}
+
+#tf-footer {
+    background-color: #38474F;
+}
 
 #tf-intro {
     background-color: #38474F;
