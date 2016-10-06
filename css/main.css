@@ -6,7 +6,9 @@
 Dark background: #38474F
 
 */
-
+.calendly-inline-widget {
+    height: 700px;
+}
 
 #tf-header {
     padding: 20px 0;
