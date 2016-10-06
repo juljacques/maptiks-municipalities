@@ -6,6 +6,30 @@
 Dark background: #38474F
 
 */
+
+
+#tf-header {
+    padding: 20px 0;
+    background: #38474F;
+    margin-top: 70px;
+    color: #ffffff;
+}
+
+.highlight {
+    color: #38474F;
+}
+
+.box .hover-text i.fa {
+    font-size: 20px;
+    background: #38474F;
+    padding: 13px;
+    color: white;
+}
+
+.user {
+    margin-top: 100px;
+
+}
 .box .hover-text i.fa {
     background: #38474F;
 }
@@ -46,11 +70,12 @@ Dark background: #38474F
     padding: 5px 15px;
 }
 
+
 #tf-home h1 {
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    font-size: 70px; 
+    font-weight: 100;
+    font-size: 120px;
 }
 
 #tf-intro img.intro-logo {
@@ -66,7 +91,7 @@ Dark background: #38474F
 }    
 
 .lead  {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .contact-detail i.fa {

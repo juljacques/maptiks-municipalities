@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ethanol Portfolio Template - Contact</title>
+    <title>Book a Demo</title>
     <meta name="description" content="Ethanol is an Agency and Personal Portfolio Template built with bootstrap 3.3.2. This is created for a cause to support my uncle's campaign. Go and Donate at - https://life.indiegogo.com/fundraisers/medical-support-for-a-filipino-overseas-worker--3/x/10058181">
     <meta name="keywords" content="portfolio, agency, bootstrap theme, mobile responsive, template, personal">
     <meta name="author" content="ThemeForces.Com">
@@ -36,6 +36,8 @@
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">    
+
 
     <!-- Google Fonts
     ================================================== -->
@@ -52,7 +54,7 @@
   </head>
   <body>
 
-    <!-- Main Navigation 
+  <!-- Main Navigation 
     ================================================== -->
     <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -64,20 +66,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img src="img/logo.png" alt="..."></a>
+              <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html#tf-home" class="scroll">Home</a></li>
-                <li><a href="index.html#tf-services" class="scroll">Services</a></li>
-                <li><a href="index.html#tf-about" class="scroll">About</a></li>
-                <li><a href="index.html#tf-works" class="scroll">Works</a></li>
-                <li><a href="index.html#tf-process" class="scroll">Process</a></li>
-                <li><a href="index.html#tf-pricing" class="scroll">Pricing</a></li>
-                <li><a href="blog.html" class="scroll">Blog</a></li>
-                <li><a href="contact.html" class="active scroll">Contact</a></li>
+                <li><a href="index.html" class="scroll hide">Home</a></li>
+                <li><a href="#tf-services" class="scroll hide">Overview</a></li>
+                <li><a href="#tf-about" class="scroll hide">About</a></li>
+                <li><a href="#itemsWork" class="scroll hide">Works</a></li>
+                <li><a href="#tf-process" class="scroll">Download Case Study</a></li>
+                <li><a href="book-a-demo.html" class="scroll">Book a demo</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -87,10 +87,10 @@
     ================================================== -->
     <div id="tf-header">
         <div class="container"> <!-- container -->
-            <h1>Contact Page</h1>
+            <h1>Book a Demo</h1>
             <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
-                <li><a class="active">Contact</a></li>
+                <li><a class="active">Book a Demo</a></li>
             </ol>
         </div><!-- end container -->
     </div>
@@ -101,8 +101,8 @@
 
         <div class="container"> <!-- container -->
             <div class="section-header">
-                <h2>Feel Free to <span class="highlight"><strong>Contact Us</strong></span></h2>
-                <h5><em>We design and build functional and beautiful websites</em></h5>
+                <h2>Book a Free <span class="highlight"><strong>Demo</strong></span></h2>
+                <h5><em>One of our reps will give you a detailed tour of Maptiks</em></h5>
                 <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
             </div>
             
@@ -120,18 +120,13 @@
                             <p class="help-block text-danger"></p>
                         </div>
 
-                        <div class="form-group"> <!-- Your email input -->
+                        <div class="form-group hide"> <!-- Your email input -->
                             <input type="text" autocomplete="off" class="form-control" placeholder="Your Phone No. *" id="phone" required data-validation-required-message="Please enter your phone no.">
                             <p class="help-block text-danger"></p>
                         </div>
 
-                         <!-- Message Text area -->
-                        <div class="form-group"> <!-- Your email input -->
-                            <textarea class="form-control" rows="7" placeholder="Tell Us Something..." id="message" required data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                            <div id="success"></div>
-                        </div>
-                        <button type="submit" class="btn btn-primary tf-btn color">Send Message</button> <!-- Send button -->
+
+                        <button type="submit" class="btn btn-primary tf-btn color">Book a Demo</button> <!-- Send button -->
 
                     </form>
                 </div>
@@ -142,47 +137,17 @@
 
             </div> <!-- end contact form outer row with centered text-->
 
-            <div class="row"> <!-- outer row -->
-                <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
-                    <div class="row"> <!-- nested row -->
-
-                        <!-- contact detail using col 4 -->
-                        <div class="col-md-4">  
-                            <div class="contact-detail">
-                                <i class="fa fa-map-marker"></i>
-                                <h4>Jl. Pahlawan VII No.247-D Sidoarjo-Surabaya-Indonesia</h4> <!-- address -->
-                            </div>
-                        </div>
-                        <!-- contact detail using col 4 -->
-                        <div class="col-md-4">
-                            <div class="contact-detail">
-                                <i class="fa fa-envelope-o"></i>
-                                <h4>rudhisasmito@gmail.com</h4><!-- email add -->
-                            </div>
-                        </div>
-
-                        <!-- contact detail using col 4 -->
-                        <div class="col-md-4">
-                            <div class="contact-detail">
-                                <i class="fa fa-phone"></i>
-                                <h4>+613 0000 0000</h4> <!-- phone no. -->
-                            </div>
-                        </div>
-
-                    </div> <!-- end nested row -->
-                </div> <!-- end col 10 with offset 1 to centered -->
-            </div><!-- end outer row -->
-
+            
         </div><!-- end container -->
 
     </div>
 
-    <!-- Footer 
+     <!-- Footer 
     ================================================== -->
     <div id="tf-footer">
         <div class="container"><!-- container -->
-            <p class="pull-left">© 2015 ethanol. All rights reserved. Theme by Rudhi Sasmito.</p> <!-- copyright text here-->
-            <ul class="list-inline social pull-right">
+            <p class="pull-left">© 2016 Maptiks. All rights reserved.</p> <!-- copyright text here-->
+            <ul class="list-inline social pull-right hide">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li> <!-- Change # With your FB Link -->
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li> <!-- Change # With your Twitter Link -->
                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li> <!-- Change # With your Google Plus Link -->
