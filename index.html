@@ -739,5 +739,66 @@ sd<!DOCTYPE html>
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
 
+     <!-- Twitter remarketing -->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+    <script type="text/javascript">twttr.conversion.trackPid('l6atq', {tw_sale_amount: 0, tw_order_quantity: 0});</script>
+    <!-- Autopilot CRM -->
+    <script type="text/javascript">
+      (function () {
+        var c = encodeURIComponent, s = "SCRIPT", d = document, e = d.createElement(s), t = d.getElementsByTagName(s)[0], p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || "");
+        e.src = "https://api.autopilothq.com/anywhere/800554eb196a47b59cab00d3dcb913537c959993966d4e75a167cb1c811395d3?" + p;
+        e.type = "text/javascript";
+        e.async = true;
+        t.parentNode.insertBefore(e, t);
+      })();
+      (function () {
+        var c = encodeURIComponent, s = "SCRIPT", d = document, e = d.createElement(s), t = d.getElementsByTagName(s)[0];
+        e.src = "https://api.autopilothq.com/anywhere/aa/800554eb196a47b59cab00d3dcb913537c959993966d4e75a167cb1c811395d3";
+        e.type = "text/javascript";
+        e.async = false;
+        t.parentNode.insertBefore(e, t);
+        window.AutopilotAnywhere = {
+          _runQueue: [], run: function () {
+            this._runQueue.push(arguments);
+          }
+        };
+        if (!window.Autopilot) window.Autopilot = window.AutopilotAnywhere;
+      })();
+    </script>
+
+    <!-- Facebook Conversion Code for Landing Page -->
+    <script>
+      (function () {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+          var fbds = document.createElement('script');
+          fbds.async = true;
+          fbds.src = '//connect.facebook.net/en_US/fbds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fbds, s);
+          _fbq.loaded = true;
+        }
+      })();
+      window._fbq = window._fbq || [];
+      window._fbq.push(['track', '6026993221004', {'value': '0.00', 'currency': 'USD'}]);
+    </script>
+
+    
+    <!-- Zarget Optimizing -->
+    <script src='//cdn.zarget.com/82221/108807.js'></script>
+    <!-- sumo -->
+    <script src="//load.sumome.com/" data-sumo-site-id="17325e467a202f2be0edd9b6d9f2f29037976fab69b261ddab2ff2a38347ec0f" async="async"></script>
+    <!-- Optimizely a/b -->
+    <script src="//cdn.optimizely.com/js/3522850172.js"></script>
+    <!-- Google Code for Remarketing Tag -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 984344571;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
   </body>
 </html>
