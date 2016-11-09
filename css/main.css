@@ -6,6 +6,37 @@
 Dark background: #38474F
 
 */
+
+.navbar-nav > li > a {
+    padding: 15px;
+}
+
+.cta {
+    stroke: 1px;
+    color: black;
+    background-color: orange;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+.cta a {
+    font-size: 10px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.cta-center {
+    stroke: 1px;
+    color: black;
+    background-color: orange;
+    padding: 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+a.goto-btn {
+    padding: 20px;
+}
+
 .calendly-inline-widget {
     height: 700px;
 }
