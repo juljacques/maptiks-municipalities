@@ -1,0 +1,481 @@
+<html>
+  <head>
+    <title>Maptiks Web Map Analytics</title>
+    <meta charSet="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/devices.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/475f2483e0.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    <link rel="stylesheet" href="css/map-icons.css"/>
+  </head>
+  <body>
+ <!--   
+    <header class="header">
+      <div class="container-lrg">
+        <div class="col-12 spread">
+          <div>
+            <a class="logo " href="index.html"><img src="img/logo-w.png" alt="..."></a>
+          </div>
+          <div>
+            <a class="nav-link" href="https://blog.maptiks.com">
+              Blog
+            </a>
+            <a class="nav-link" href="https://analytics.maptiks.com">
+              Login
+            </a>
+            <a href="https://analytics.maptiks.com">
+              <button class="ctas-button">
+              Book a Demo
+            </button></a>
+          </div>
+        </div>
+      </div>
+      <div class="container-sml">
+        <div class="col-12 text-center">
+          <h1 class="heading">
+            Analytics for Building Better Maps With ArscGIS Online<br>
+          </h1>
+          <h2 class="paragraph">
+            Turn web map interactions into actionable insights and make data-driven decisions that improve user experiences. 
+          </h2>
+          <div class="ctas">
+            <input class="ctas-input" type="text" placeholder="Your Email Address">
+            <button class="ctas-button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="centerdevices col-12">
+          <div class="computerwrapper">
+            <div class="computer">
+              <div class="mask">
+                <img class="mask-img" src="img/hero-computer2.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+-->    
+    <header class="header">
+      <div class="container-lrg">
+        <div class="col-12 spread">
+          <div>
+            <a class="logo " href="index.html"><img src="img/logo-w.png" alt="..."></a>
+          </div>
+          <div>
+            <a class="nav-link" href="https://blog.maptiks.com">
+              Blog
+            </a>
+            <a class="nav-link" href="https://analytics.maptiks.com">
+              Login
+            </a>
+            <a href="https://analytics.maptiks.com">
+              <button class="ctas-button">
+              Book a Demo
+            </button></a>
+          </div>
+        </div>
+      </div>
+      <div class="container-sml">
+        <div class="col-12 text-center">
+          <h1 class="heading">
+            Analytics for Building Better Maps With ArscGIS Online<br>
+          </h1>
+          <h2 class="paragraph">
+            Turn web map interactions into actionable insights and make data-driven decisions that improve user experiences. 
+          </h2>
+          <div class="ctas">
+            <input class="ctas-input" type="text" placeholder="Your Email Address">
+            <button class="ctas-button">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="centerdevices col-12">
+          <div class="computerwrapper">
+            <div class="computer">
+              <div class="mask">
+                <div class="map" id="leaflet-map"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+              <!-- web mpa track hide 
+                <div class="col-sm-6 col-md-6 map-analytics-demo-right">
+                  <div class="analytic-cards row card card-block feature-card-med">
+                                <h4 class="card-title row-title ">Web Map Activities
+                    <i id="analytic-loading-head-help" class="small"></i>
+                      </h4>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3 ">
+
+                      <h2 id="analytic-activity" class="analytic activity-count">0</h2>
+                      <h4  class="card-title-small">Activities
+                        <i id="analytic-count-help" class="small"></i>
+                      </h4>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+
+                      <h2 id="analytic-pan" class="analytic pan-count">0</h2>
+                      <h4 class="card-title-small">Pans
+                      <i id="analytic-pans-help" class="small"></i>
+                      </h4>
+                    </div>
+
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                      <h2 id="analytic-zoom" class="analytic zoom-count">0</h2>
+                      <h4 class="card-title-small">Zooms
+                        <i id="analytic-zooms-help" class="small"></i>
+                      </h4>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3">
+                      <h2 id="analytic-click" class="analytic click-count">0</h2>
+                      <h4 class="card-title-small">Clicks
+                        <i id="analytic-clicks-help" class="small"></i>
+                      </h4>
+                    </div>
+              &nbsp;
+                    </div>
+
+                    <div class="analytic-cards row card card-block feature-card-med">
+                      <div class=" progress">
+                        <b span id="no_click_engagement">User activity bar</b>
+                        <div id="low-engagement" class="progress-bar progress-bar-danger" role="progressbar" style="display:none;width:0%">
+                          <b>Low</b>
+                        </div>
+                        <div id="moderate-engagement" class="progress-bar progress-bar-warning" role="progressbar" style="display:none;width:0%">
+                          <b>Medium</b>
+                        </div>
+                        <div id="high-engagement" class="progress-bar progress-bar-success" role="progressbar" style="display:none;width:0%">
+                          <b>High</b>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="analytic-cards row card card-block feature-card-med">
+                        <h4 class="card-title row-title margin-top-plus-40">Marker Click Conversions
+                        <i id="analytic-conversion-head-help" class="small"></i>
+                      </h4>
+                      <div class="col-xs-3 col-sm-3 col-md-3">
+                        <h2 id="analytic-converts" class="analytic activity-count">0</h2>
+                        <h4 class="card-title-small">Map<br>Converts
+                          <i id="analytic-conversions-help" class="small"></i>
+                        </h4>
+                      </div>
+                      <div class="col-xs-3 col-sm-3 col-md-3">
+                        <h2 id="analytic-conversion-rate" class="analytic rate-count">0</h2>
+                        <h4 class="card-title-small">Conversion<br>Rate
+                        <i id="analytic-conversion-rate-help" class="small"></i>
+                        </h4>
+                      </div>
+
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <h2 id="analytic-converter" class="analytic converted-count">-</h2>
+                        <h4 class="card-title-small">Top Converting<br>Marker
+                        <i id="analytic-converter-help" class="small"></i>
+                        </h4>
+                      </div>
+                      &nbsp;
+                    </div>
+
+
+
+              -->
+
+
+
+
+          <!-- tracking map -->
+      <div class="container-lrg flex">
+        <div class="col-4">
+          <b>
+            <i id="analytic-loading-head-help" class="small"></i>
+          </b>
+          <h3 class="subheading">
+            Municipalities<br>
+          </h3>
+          <p class="paragraph">
+            Launchaco instantly shows you the most relevant domain names. Followed by hundreds of new gtlds. Get your .gold domain name today!
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i id="analytic-count-help" class="small"></i>
+          </b>
+          <h3 class="subheading">
+            Education
+          </h3>
+          <p class="paragraph">
+            Naming your brand has never been soooo easy! With Launchaco you can instantly search for twitter, facebook, medium, and instagram handles.
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i id="analytic-pans-help" class="small"></i>
+          </b>
+          <h3 class="subheading">
+            NGOs<br>
+          </h3>
+          <p class="paragraph">
+            We've hand travelled the depths of the internet to bring you gorgeous logotypes. Featuring the beautiful fonts of Connary Fagen.
+          </p>
+        </div>
+      </div>
+
+
+        </div>
+      </div>
+    </header>
+
+    <div class="feature3">
+      <div class="container-lrg flex">
+        <div class="col-4">
+          <b>
+            <i class="fa fa-building-o" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            Municipalities<br>
+          </h3>
+          <p class="paragraph">
+            Launchaco instantly shows you the most relevant domain names. Followed by hundreds of new gtlds. Get your .gold domain name today!
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            Education
+          </h3>
+          <p class="paragraph">
+            Naming your brand has never been soooo easy! With Launchaco you can instantly search for twitter, facebook, medium, and instagram handles.
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i class="fa fa-medkit" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            NGOs<br>
+          </h3>
+          <p class="paragraph">
+            We've hand travelled the depths of the internet to bring you gorgeous logotypes. Featuring the beautiful fonts of Connary Fagen.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="feature5">
+      <div class="container-sml text-center">
+        <div class="col-12">
+          <h3 class="heading">
+            Built for ArcGIS Online<br>
+          </h3>
+        </div>
+      </div>
+      <div class="container-lrg flex">
+        <div class="col-5 centervertical">
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-angle-double-down" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-5px;margin-left:7px"></i>
+              </b>
+            </div>
+            <h3 class="subheading">
+              Bounce rates
+            </h3>
+            <p class="paragraph">
+              Track bounce rates and the engagement of your map to find out exactly who and if users are using your web map app to its full potential.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-bar-chart" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-5px;"></i>
+              </b>
+            </div>
+            <h3 class="subheading">
+              Map performance
+            </h3>
+            <p class="paragraph">
+              Track bounce rates and the engagement of your map to find out exactly who and if users are using your web map app to its full potential.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-map-signs" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-2px;"></i>
+              </b>
+            </div>
+            <h3 class="subheading">
+              Heatmaps
+            </h3>
+            <p class="paragraph">
+              Track your map performance from a single place and get notified when there are load issues and error logs. By tracking layers and tile, Maptiks provides web map developers an easy way to track your maps performance.
+            </p>
+          </div>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col-6">
+          <div class="sidedevices">
+            <div class="browseriphone">
+              <div class="iphone">
+                <div class="mask">
+                  <img class="mask-img" src="img/pg-mobile.png">
+                </div>
+              </div>
+              <div class="browser">
+                <div class="mask">
+                  <img class="mask-img" src="img/hero-arc.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature1">
+      <div class="container-sml">
+        <div class="col-12 text-center">
+          <h3 class="heading">
+            Track Web Map Journeys
+          </h3>
+          <p class="paragraph">
+            See how users are interacting with your ArcGIS Online maps and gain unprecedented user engagement insights. With the activity heatmap, you can quickly view the most active sections of your map at a glance.
+          </p>
+        </div>
+      </div>
+      <div class="container-lrg centerdevices col-12">
+        <div class="browserwrapper">
+          <div class="browser">
+            <div class="mask">
+              <img class="mask-img" src="img/activities.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature2">
+      <div class="container-lrg flex">
+        <div class="col-6">
+          <b class="emoji">
+            🎓
+          </b>
+          <h3 class="subheading">
+            Derbyshire County Case Study<br>
+          </h3>
+          <p class="paragraph">
+            Derbyshire County Tracks Gritting Routes and Snow Removal Map.<br>
+            <a href="">Download case study</a>
+          </p>
+        </div>
+        <div class="col-6">
+          <b class="emoji">
+            💐
+          </b>
+          <h3 class="subheading">
+            City of Prince George Case Study<br>
+          </h3>
+          <p class="paragraph">
+            City of Prince George Tracks City Construction Map.<br>
+            <a href="">Download case study</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="socialproof">
+      <div class="container-sml">
+        <div class="flex text-center">
+          <div class="col-12">
+            <h4 class="subheading">
+              "Maptiks has given our organization the ability to quickly roll out an analytics-ready application for a client and show them exactly what part of the map that people are most interested in"
+            </h4>
+            <p class="paragraph">
+              Chris Rice - Interdev<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="logos flex">
+          <img class="col-3" src="img/strava.png">
+          <img class="col-3" src="img/stamen.jpg">
+          <img class="col-3" src="img/interdev.png">
+          <img class="col-3" src="img/digital-globe.png">
+          <img class="col-3" src="img/launchacologo.svg">
+          <img class="col-3" src="img/launchacologo.svg">
+          <img class="col-3" src="img/launchacologo.svg">
+          <img class="col-3" src="img/launchacologo.svg">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-lrg center">
+        <div class="col-7">
+          <h5 class="heading">
+            Looking for more info? Book a 15min demo.<br>
+          </h5>
+        </div>
+        <div class="col-5">
+          <div class="ctas text-right">
+            <a class="ctas-button" href="">
+              Sign Up
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-sml footer-nav text-center">
+        <div class="col-12">
+          <div>
+            <a class="nav-link" href="https://twitter.com/maptiks">
+              Twitter
+            </a>
+            <a class="nav-link" href="https://www.facebook.com/maptiks/">
+              Facebook
+            </a>
+            <a class="nav-link">
+              Contact
+            </a>
+            <a class="nav-link">
+              TOS
+            </a>
+            <a class="nav-link">
+              Privacy
+            </a>
+          </div>
+          <br>
+          <div>
+            <span>
+              Copyright © 2017 spark<b>geo</b>. All rights reserved. 
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Javascript -->
+
+    <script src="https://cdn.jsdelivr.net/leaflet/1.0.0-rc.1/leaflet-src.js"></script>
+    <script src="https://cdn.jsdelivr.net/leaflet.esri/2.0.0/esri-leaflet.js"></script>
+    <script src="//cdn.maptiks.com/maptiks-leaflet.min.js"></script>
+
+    <script>maptiks.trackcode='67f8ce06-141e-4352-b619-1d8fd4537368';</script>
+
+    <script src="js/watch.min.js" type="text/javascript"></script>
+    <script src="js/leafletMap.js" type="text/javascript"></script>
+
+  </body>
+</html>
