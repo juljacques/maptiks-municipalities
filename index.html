@@ -1,805 +1,339 @@
-sd<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maptiks Web Map Analytics</title>
-    <meta name="description" content="Maptiks provides analytics for web maps built on Esri web mapping platforms. Track key metrics and users as they interact with your web map.">
-    <meta name="keywords" content="portfolio, agency, bootstrap theme, mobile responsive, template, personal">
-    <meta name="author" content="ThemeForces.Com">
-    
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-    <!-- Nivo Lightbox
-    ================================================== -->
-    <link rel="stylesheet" href="css/nivo-lightbox.css" >
-    <link rel="stylesheet" href="css/nivo_lightbox_themes/default/default.css">
-
-    <!-- Slider
-    ================================================== -->
-    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
-    <!-- Stylesheet
-    ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">    
-
-    <!-- Google Fonts
-    ================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charSet="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/devices.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/475f2483e0.js"></script>
   </head>
   <body>
-
-    <!-- Main Navigation 
-    ================================================== -->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html" class="scroll hide">Home</a></li>
-                <li><a href="#tf-services" class="scroll hide">Overview</a></li>
-                <li><a href="#tf-about" class="scroll hide">About</a></li>
-                <li><a href="#itemsWork" class="scroll hide">Works</a></li>
-                <li><a href="http://hubs.ly/H04D-br0" target="_blank" class="scroll">Download Case Study</a></li>
-                <li><a href="book-a-demo.html" class="scroll cta button">Book a demo</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-    <!-- Home Section
-    ================================================== -->
-    <div id="tf-home">
-        <div class="overlay"> <!-- Overlay Color -->
-            <div class="container"> <!-- container -->
-                <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
-                    <h1>Analytics for <br>ArcGIS Online</h1>
-                    <p class="lead">Designed for municipalities and small governments.</p>
-                    <a href="book-a-demo.html" class="scroll goto-btn text-uppercase cta-center">Book a Demo</a> <!-- Link to your portfolio section -->
-                </div><!-- End Input Your Home Content Here -->
-            </div> <!-- end container -->
-        </div><!-- End Overlay Color -->
-    </div>
-
-    <!-- Intro Section
-    ================================================== -->
-    <div id="tf-intro">
-        <div class="container"> <!-- container -->
-            <div class="row"> <!-- row -->
-
-                <div class="col-md-8 col-md-offset-2"> 
-                    <a href="https://marketplace.arcgis.com/listing.html?id=a5e4a3e9746049dab0cbaf136b61666e" target="_blank"><img src="img/market-m.png" class="intro-logo img-responsive" alt="free-template"></a>  <!-- Your company logo in white -->
-                    <p>Maptiks can be found on the ArcGIS Marketplace.</p>
-                </div>
-                
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div>
-
-    <!-- Service Section
-    ================================================== -->
-    <div id="tf-services">
-        <div class="container"> <!-- container -->
-
-            <div class="section-header">
-                <h2>What We Do With <span class="highlight"><strong>Data</strong></span></h2>
-                <h5><em>Get insights into your web map users.</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
-            </div>
-
-            <div class="row"> <!-- row -->
-                
-                <div class="col-md-6 text-right">  <!-- Left Content Col 6 -->
-                    <div class="media service"> <!-- Service #1 -->
-                        <div class="media-body">
-                            <h4 class="media-heading">User activity</h4>
-                            <p>See how users are interacting with your maps and gain unprecedented user engagement insights. With the activity heatmap, you can quickly view the most active sections of your map at a glance.</p>
-                        </div>
-                        <div class="media-right media-middle">
-                            <i class="fa fa-user"></i>
-                        </div>
-                    </div><!-- End Service #1 -->
-
-                    <div class="media service"> <!-- Service #2 -->
-                        <div class="media-body">
-                            <h4 class="media-heading">Map performance</h4>
-                            <p>Track your map performance from a single place and get notified when there are load issues and error logs. By tracking layers and tile, Maptiks provides web map developers an easy way to track your maps performance.</p>
-                        </div>
-                        <div class="media-right media-middle">
-                            <i class="fa fa-area-chart"></i>
-                        </div>
-                    </div><!-- End Service #2 -->
-
-                    <div class="media service"> <!-- Service #3 -->
-                        <div class="media-body">
-                            <h4 class="media-heading">Heatmaps</h4>
-                            <p>See exactly where users are on your web map applications. Whethter they're looking in New York City, Paris or the middle of the ocean, you can tracke very step.</p>
-                        </div>
-                        <div class="media-right media-middle">
-                            <i class="fa fa-circle-thin"></i>
-                        </div>
-                    </div> <!-- End Service #3 -->
-                </div> <!-- End Left Content Col 6 -->
-
-                <div class="col-md-6"> <!-- Right Content Col 6 -->
-                    <div class="media service"> <!-- Service #4 -->
-                        <div class="media-left media-middle">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Bounce rates</h4>
-                            <p>Track bounce rates and the engagement of your map to find out exactly who and if users are using your web map app to its full potential.</p>
-                        </div>
-                    </div><!-- end Service #4 -->
-
-                    <div class="media service"> <!-- Service #5 -->
-                        <div class="media-left media-middle">
-                            <i class="fa fa-adjust"></i>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Visitor durations</h4>
-                            <p>Track time spent on your web map application.</p>
-                        </div>
-                    </div> <!-- end Service #5 -->
-
-                    <div class="media service hide"> <!-- Service #6 -->
-                        <div class="media-left media-middle">
-                            <i class="fa fa-line-chart"></i>
-                        </div>
-                        <div class="media-body hide">
-                            <h4 class="media-heading">SEO/Online Marketing</h4>
-                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                        </div>
-                    </div> <!-- end Service #6 -->
-                </div><!-- end Right Content Col 6 -->
-                
-            </div><!-- end row -->
-
-        </div><!-- end container -->
-    </div>
-
-    <!-- About Us Section
-    ================================================== -->
-    <div id="tf-about">
-        <div class="container"> <!-- container -->
-            <div class="section-header hide">
-                <h2>What To Know Us <span class="highlight"><strong>Better</strong></span></h2>
-                <h5><em>We design and build functional and beautiful websites</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
-            </div>
-        </div><!-- end container -->
-
-        <div class="gray-bg"> <!-- fullwidth gray background -->
-
-            <div class="container"><!-- container -->
-                <div class="row hide"> <!-- row -->
-
-                    <div class="col-md-6"> <!-- left content col 6 -->
-                        <div class="about-left-content text-center">
-                            <div class="img-wrap"> <!-- profile image wrap -->
-                                <div class="profile-img"> <!-- company profile details -->
-                                    <img src="http://placehold.it/800x650" class="img-responsive" alt="Image"> <!-- change link to your image for your company profile -->
-                                    <ul class="list-inline social"> 
-                                        <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                        <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                        <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                                    </ul>
-                                </div>
-                            </div><!-- end profile image wrap -->
-                            <h2><span class="small">Developing</span> Amazing Things <br><span class="small">with Passion since 2012.</span></h2>
-                        </div>
-                    </div><!-- end left content col 6 -->
-
-                    <div class="col-md-6"><!-- right content col 6 -->
-                        <div class="about-right-content"> <!-- right content wrapper -->
-
-                            <h4><strong>Professional Profile</strong></h4>
-                            <p>Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.</p>
-                            
-                            <div class="skills"> <!-- skills progress bar -->
-                                <div class="skillset"> <!-- skill #1 -->
-                                    <p>UI/UX Design</p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                            <span class="sr-only">90% Complete</span>
-                                        </div>
-                                    </div>
-                                </div><!-- end skill #1 -->
-
-                                <div class="skillset"> <!-- skill #2 -->
-                                    <p>HTML5, CSS3, SASS</p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                                            <span class="sr-only">85% Complete</span>
-                                        </div>
-                                    </div>
-                                </div><!-- end skill #2 -->
-
-                                <div class="skillset"> <!-- skill #3 -->
-                                    <p>WordPress</p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">
-                                            <span class="sr-only">99% Complete</span>
-                                        </div>
-                                    </div>
-                                </div> <!-- end skill #3 -->
-
-                                <div class="skillset"> <!-- skill #4 -->
-                                    <p>Graphic Design</p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                            <span class="sr-only">70% Complete</span>
-                                        </div>
-                                    </div>
-                                </div> <!-- end skill #4 -->
-
-                                <div class="skillset"> <!-- skill #5 -->
-                                    <p>Marketing</p>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                            <span class="sr-only">50% Complete</span>
-                                        </div>
-                                    </div>
-                                </div><!-- end skill #4 -->
-                            </div> <!-- end skills progress bar -->
-
-                        </div><!-- end right content wrapper -->
-                    </div><!-- end right content col 6 -->
-
-                </div> <!-- end row -->
-            </div><!-- end container -->
-
-            <div id="tf-counter" class="text-center">
-                <div class="container">
-                    <div class="row"> <!-- Row -->
-
-                        <div class="counter"> 
-
-                          <div class="col-xs-6 col-sm-4 col-md-2 col-md-2 col-md-offset-1 facts"><!-- counter #1 -->
-                            <div class="count-box"> 
-                                <i class="fa fa-thumbs-up"></i>
-                                <h4 class="count">320</h4>
-                                <p class="small">Happy Customers</p>
-                            </div> 
-                          </div><!-- end counter #1 -->
-
-                          <div class="col-xs-6 col-sm-4 col-md-2 facts"><!-- counter #2 -->
-                            <div class="count-box">
-                              <i class="fa fa-code"></i>
-                              <h4 class="count">1280</h4>
-                              <p class="small">Web Maps</p>
-                            </div>
-                          </div>
-
-                          <div class="col-xs-6 col-sm-4 col-md-2 facts"> <!-- counter #3 -->
-                            <div class="count-box">
-                              <i class="fa fa-users"></i>
-                              <h4 class="count">200582</h4>
-                              <p class="small">Visitors Tracked</p>
-                            </div>
-                          </div>
-
-                          <div class="col-xs-6 col-sm-4 col-md-2 facts"> <!-- counter #4 -->
-                            <div class="count-box">
-                              <i class="fa fa-map-marker"></i>
-                              <h4 class="count">45290212</h4>
-                              <p class="small">Activities Logged</p>
-                            </div>
-                          </div>
-
-                          <div class="col-xs-6 col-sm-4 col-md-2 facts"> <!-- counter #5 -->
-                            <div class="count-box last">
-                              <i class="fa fa-calendar-o"></i>
-                              <h4 class="count">12028745</h4>
-                              <p class="small">Visitor Time</p>
-                            </div>
-                          </div>
-
-                        </div>
-
-                      </div> <!-- End Row -->
-                </div>
-            </div>
-
-        </div> <!-- end fullwidth gray background -->
-    </div>
-
-    <!-- Team Section
-    ================================================== -->
-    <div id="tf-team">
-        <div class="container hide"> <!-- container -->
-            <div class="section-header">
-                <h2>Awesome People Behind <span class="highlight"><strong>ethanol</strong></span></h2>
-                <h5><em>We design and build functional and beautiful websites</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
-            </div>
-
-             <div id="team" class="owl-carousel owl-theme text-center"> <!-- team carousel wrapper -->
-
-                <div class="item"><!-- Team #1 -->
-                    <div class="hover-bg"> <!-- Team Wrapper -->
-                        <div class="hover-text off"> <!-- Hover Description -->
-                            <p>Aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
-                        </div><!-- End Hover Description -->
-                        <img src="img/team/01.jpg" alt="..." class="img-responsive"> <!-- Team Image -->
-                        <div class="team-detail text-center">
-                            <h3>Maria Shara</h3>
-                            <p class="text-uppercase">Founder / CEO</p>
-                            <ul class="list-inline social"> 
-                                <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                            </ul>
-                        </div>
-                    </div><!-- End Team Wrapper -->
-                </div><!-- End Team #1 -->
-
-                <div class="item"> <!-- Team #2 -->
-                    <div class="hover-bg"> <!-- Team Wrapper -->
-                        <div class="hover-text off"> <!-- Hover Description -->
-                            <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies. Aliquet rutrum dui a varius. Mauris ornare tortor.</p>
-                        </div> <!-- End Hover Description -->
-                        <img src="img/team/02.jpg" alt="..." class="img-responsive"><!-- Team Image -->
-                        <div class="team-detail text-center">
-                            <h3>Jenn Pereira</h3>
-                            <p class="text-uppercase">Senior Creative Director</p>
-                            <ul class="list-inline social"> 
-                                <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                            </ul>
-                        </div>
-                    </div> <!-- End Team Wrapper -->
-                </div><!-- End Team #2 -->
-
-                <div class="item"> <!-- Team #3 -->
-                    <div class="hover-bg"> <!-- Team Wrapper -->
-                        <div class="hover-text off"> <!-- Hover Description -->
-                            <p>Vivamus aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nec bibendum erat volutpat ultricies. Aliquet rutrum dui a varius. Mauris ornare tortor. </p>
-                        </div> <!-- End Hover Description -->
-                        <img src="img/team/01.jpg" alt="..." class="img-responsive"><!-- Team Image -->
-                        <div class="team-detail text-center">
-                            <h3>Serena William</h3>
-                            <p class="text-uppercase">Senior Designer</p>
-                            <ul class="list-inline social"> 
-                                <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                            </ul>
-                        </div>
-                    </div><!-- End Team Wrapper -->
-                </div><!-- End Team #3 -->
-
-                <div class="item"><!-- Team #4 -->
-                    <div class="hover-bg"> <!-- Team Wrapper -->
-                        <div class="hover-text off"> <!-- Hover Description -->
-                            <p>Aliquet rutrum dui a varius. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies.</p>
-                        </div> <!-- End Hover Description -->
-                        <img src="img/team/01.jpg" alt="..." class="img-responsive"> <!-- Team Image -->
-                        <div class="team-detail text-center">
-                            <h3>Maria Shara</h3>
-                            <p class="text-uppercase">Founder / CEO</p>
-                            <ul class="list-inline social"> 
-                                <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                            </ul>
-                        </div>
-                    </div> <!-- End Team Wrapper -->
-                </div><!-- End Team #4 -->
-
-                <div class="item"><!-- Team #5 -->
-                    <div class="hover-bg"> <!-- Team Wrapper -->
-                        <div class="hover-text off"> <!-- Hover Description -->
-                            <p>Praesent eget bibendum purus, quis placerat dui. Duis lacinia nisi sit ansequat lorem nunc, nec bibendum erat volutpat ultricies. Aliquet rutrum dui a varius. Mauris ornare tortor.</p>
-                        </div> <!-- End Hover Description -->
-                        <img src="img/team/02.jpg" alt="..." class="img-responsive"> <!-- Team Image -->
-                        <div class="team-detail text-center">
-                            <h3>Jenn Pereira</h3>
-                            <p class="text-uppercase">Senior Creative Director</p>
-                            <ul class="list-inline social"> 
-                                <li><a href="#" class="fa fa-facebook"></a></li> <!-- facebook link here -->
-                                <li><a href="#" class="fa fa-twitter"></a></li> <!-- twitter link here -->
-                                <li><a href="#" class="fa fa-google-plus"></a></li> <!-- google plus link here -->
-                            </ul>
-                        </div>
-                    </div> <!-- End Team Wrapper -->
-                </div><!-- End Team #5 -->
-
-            </div> <!-- end team carousel wrapper -->
-
-        </div> <!-- container -->
-    </div>
-
-    <!-- Why Us/Features Section
-    ================================================== -->
- <!-- Works Section
-    ================================================== -->
-    <div id="tf-works" class="work-detail">
-        <div class="container">
-            <div class="section-header">
-                <h2>Built for <span class="highlight"><strong>ArcGIS Online</strong></span></h2>
-                <h5><em>See your users' web map activity</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
-            </div>
+    <header class="header">
+      <div class="container-lrg">
+        <div class="col-12 spread">
+          <div>
+            <a class="logo " href="index.html"><img class="logo-img" src="img/maptiks.svg" alt="maptiks"></a>
+          </div>
+          <div>
+            <a class="nav-link" href="https://blog.maptiks.com">
+              Blog
+            </a>
+            <a class="nav-link" href="https://analytics.maptiks.com">
+              Login
+            </a>
+            <a href="book-demo.html">
+              <button class="ctas-button">
+              Book a Demo
+            </button></a>
+          </div>
         </div>
-
-        <div id="work-detail-one"> <!-- fullwidth gray background -->
-            <div class="container"><!-- container -->
-
-                <div class="row"> <!-- row -->
-                    <div class="col-md-5 col-md-offset-1"> <!-- Left Blogrol col 8 -->
-
-                        <div class="works-block"> <!-- Post Wrapper -->
-                            <img src="img/tab03.png" class="img-responsive featured" alt="...">
-                        </div><!-- end Post Wrapper -->
-
-                    </div> <!-- end Left content col 8 -->
-
-                    <div class="col-md-5 user"> <!-- Blog Sidebar -->
-                        <h3 class="media-heading"><strong>Track user web map journeys</strong></h3>
-                        <hr>
-                        <p>See how users are interacting with your ArcGIS Online maps and gain unprecedented user engagement insights. With the activity heatmap, you can quickly view the most active sections of your map at a glance.</p>
-                        <p></p>
-                    </div><!-- end right content col 4 -->
-
-                </div><!-- end row -->
-                          
-            </div><!-- end container -->
-        </div> <!-- end fullwidth gray background -->
-     </div>   
-    <!-- Works Section
-    ================================================== -->
-    <div id="tf-works">
-        <div class="container hide">
-            <div class="section-header">
-                <h2><span class="highlight"><strong>Case Studies</strong></span></h2>
-                <h5><em>We've worked with municipalities across North America.</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
+      </div>
+      <div class="container-sml">
+        <div class="col-12 text-center">
+          <h1 class="heading">
+            Analytics for Building Better Maps w/ ArcGIS Online<br>
+          </h1>
+          <h2 class="paragraph">
+            Turn web map interactions into actionable insights and make data-driven decisions that improve user experiences. 
+          </h2>
+          <div class="ctas">
+            <a href="book-demo.html">
+            <button class="ctas-button">
+              Book a Demo
+            </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="centerdevices col-12">
+          <div class="computerwrapper">
+            <div class="computer">
+              <div class="mask">
+                <img class="mask-img" src="img/hero-computer2.png" alt="maptiks-analytics">
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-            <div class="text-center hide">
-                <ul class="list-inline cat"> <!-- Portfolio Filter Categories -->
-                    <li><a href="#" data-filter="*" class="active">All</a></li>
-                    <li><a href="#" data-filter=".web">Web</a></li>
-                    <li><a href="#" data-filter=".brand">Branding</a></li>
-                    <li><a href="#" data-filter=".app">Apps</a></li>
-                    <li><a href="#" data-filter=".others">Others</a></li>
-                </ul><!-- End Portfolio Filter Categories -->
-            </div>
 
-        </div><!-- End Container -->
-
-        <div class="container-fluid hide"> <!-- fluid container -->
-             <div id="itemsWork" class="row text-center"> <!-- Portfolio Wrapper Row -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand others"> <!-- Works #1 col 3 -->
-                    <div class="box"> 
-                        <div class="hover-bg">
-                            <div class="hover-text off">
-                                <a title="Logo Identity Design" href="img/portfolio/01@2x.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01@2x.jpg">
-                                 <!--   <i class="fa fa-expand"></i> -->
-                                </a>
-                                <a href="#"><i class="fa fa-chain"></i></a> <!-- change # with your url to link it to another page -->
-                            </div> 
-                            <img src="img/portfolio/01.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
-                        </div>
-                    </div>
-                </div><!-- end Works #1 col 3 -->
-
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding apps"> <!-- Works #2 col 3 -->
-                    <div class="box">
-                        <div class="hover-bg">
-                            <div class="hover-text off">
-                                <a title="Mobile Application" href="img/portfolio/02@2x.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/02@2x.jpg">
-                                   <!-- <i class="fa fa-expand"></i> -->
-                                </a>
-                                <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
-                            </div>
-                            <img src="img/portfolio/02.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
-                        </div>
-                    </div>
-                </div><!-- end Works #2 col 3 -->
-
-                
-            </div> <!-- End Row -->
-
-        </div> <!-- End Container-Fluid -->
+    <div class="feature3">
+      <div class="container-lrg flex">
+        <div class="col-4">
+          <b>
+            <i class="fa fa-building-o" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            Municipalities<br>
+          </h3>
+          <p class="paragraph">
+            Whether it be evacuation plans, election maps, transit routes or garbage routes, you can connect your geospatial maps to Maptiks and start tracking key metrics. 
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            Education
+          </h3>
+          <p class="paragraph">
+            Universities and Colleges use Maptiks to provide analytical tools to their geospatial students.  
+          </p>
+        </div>
+        <div class="col-4">
+          <b>
+            <i class="fa fa-medkit" aria-hidden="true" style="font-size:64px;height:80px;color:#c2c2c2"></i>
+          </b>
+          <h3 class="subheading">
+            NGOs<br>
+          </h3>
+          <p class="paragraph">
+            Non-profit organizations rely on Maptiks to fuel innovation, develop risk management software and develop tools used by field agents.
+          </p>
+        </div>
+      </div>
     </div>
 
-    <!-- Process Section
-    ================================================== -->
-    <div id="tf-process">
-        <div class="container"> <!-- container -->
-            <div class="section-header">
-                <h2>Web Map Development <span class="highlight"><strong>WorkFlow</strong></span></h2>
-                <h5><em>Test, launch and optimize your web mapp applications.</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
+    <!-- Section for ArcGIS Online -->
+    <div class="feature5">
+      <div class="container-sml text-center">
+        <div class="col-12">
+          <h3 class="heading">
+            Built for ArcGIS Online<br>
+          </h3>
+        </div>
+      </div>
+      <div class="container-lrg flex">
+        <div class="col-5 centervertical">
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-angle-double-down" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-5px;margin-left:7px"></i>
+              </b>
             </div>
-        </div><!-- end container -->
-
-        <div class="gray-bg"> <!-- fullwidth gray background -->
-            <div class="container"><!-- container -->
-                <div class="vline"></div> <!--  Vertical Line -->
-                <div id="process" class="row"> <!-- row -->
-
-                    <div class="col-md-10 col-md-offset-1">
-
-                        <div class="media process"> <!-- Process #1 -->
-                            <div class="media-right media-middle">
-                                <i class="fa fa-area-chart"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Baseline data</h4>
-                                <p>Find our your baseline metrics and understand the performance of visitor audiences to properly align goals.</p>
-                            </div>
-                        </div><!-- Process #1 -->
-
-                        <div class="media process"> <!-- Process #2 -->
-                            <div class="media-right media-middle">
-                                <i class="fa fa-star-o"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Set metrics</h4>
-                                <p>Identify quantitative measures including key performance metrics that are targets for success. </p>
-                            </div>
-                        </div><!-- Process #2 -->
-
-                        <div class="media process"> <!-- Process #3 -->
-                            <div class="media-right media-middle">
-                                <i class="fa fa-sliders"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Optimize</h4>
-                                <p>Optimize your data and user experience based on viewer engagement, key metrics and where user interactions.</p>
-                            </div>
-                        </div><!-- Process #3 -->
-                        
-                    </div>
-
-                </div> <!-- end row -->
-            </div><!-- end container -->
-        </div>  <!-- end fullwidth gray background -->
-    </div>
-
-    <!--  Pricing Section
-    ================================================== -->
-    <div id="tf-pricing">
-        <div class="container"> <!-- container -->
-            <div class="section-header">
-                <h2>Choose The Best <span class="highlight"><strong>Plan</strong></span></h2>
-                <h5><em>Plans that grow with you</em></h5>
-                <div class="fancy"><span><img src="img/favicon.ico" alt="..."></span></div>
+            <h3 class="subheading">
+              Bounce rates
+            </h3>
+            <p class="paragraph">
+              Track bounce rates and the engagement of your map to find out exactly who and if users are using your web map app to its full potential.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-bar-chart" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-5px;"></i>
+              </b>
             </div>
-
-            <div class="row"> <!-- outer row -->
-                <div class="col-md-10 col-md-offset-1"> <!-- col 10 with offset 1 to centered -->
-                    <div class="row"> <!-- nested row -->
-
-                        <div class="col-md-4 nopadding"><!-- Price table #1 -->
-                            <div class="panel panel-default price"> <!-- pricing table wrapper -->
-                                <div class="panel-heading">Basic Plan</div>
-                                <div class="panel-body">
-                                    <h1><sup>$</sup>199<small>/month</small></h1> <!-- Plan Price -->
-                                </div>
-
-                                <!-- Plan Feature Lists -->
-                                <ul class="list-unstyled">
-                                    <li>ArcGIS Online Analytics</li>
-                                    <li>5 Users</li>
-                                    <li>100 Maps</li>
-                                    <li>5000 Visitors per Month</li>
-                                    <li>3,000 Entries per Month</li>
-                                    <li>200 MB Storage</li>
-                                    <li>
-                                        <a href="book-a-demo.html"><button type="button" class="btn btn-primary btn-block tf-btn">Book Demo to Get Sarted</button></a>
-                                        <small class="text-uppercase hide">30 Days Free Trial</small>
-                                    </li>
-                                </ul><!-- end Plan Feature Lists -->
-                            </div><!-- end pricing table wrapper -->
-                        </div><!-- end Price table #1 -->
-
-                        <div class="col-md-4 nopadding"><!-- Price table #2 -->
-                            <div class="panel panel-default price featured"><!-- pricing table wrapper -->
-                                <div class="panel-heading">Best Plan</div>
-                                <div class="panel-body">
-                                    <h1><sup>$</sup>399<small>/month</small></h1><!-- Plan Price -->
-                                </div>
-
-                                <!-- Plan Feature Lists -->
-                                <ul class="list-unstyled">
-                                    <li>ArcGIS Online Analytics</li>
-                                    <li>25 Users</li>
-                                    <li>500 Maps</li>
-                                    <li>25000 Visitors per Month</li>
-                                    <li>3,000 Entries per Month</li>
-                                    <li>200 MB Storage</li>
-                                    <li>
-                                        <a href="book-a-demo.html"><button type="button" class="btn btn-primary btn-block tf-btn">Book Demo to Get Sarted</button></a>
-                                        <small class="text-uppercase hide">30 Days Free Trial</small>
-                                    </li>
-                                </ul><!-- end Plan Feature Lists -->
-                            </div><!-- end pricing table wrapper -->
-                        </div><!-- end Price table #2 -->
-
-                        <div class="col-md-4 nopadding"> <!-- Price table #3 -->
-                            <div class="panel panel-default price"> <!-- pricing table wrapper -->
-                                <div class="panel-heading">Premium Plan</div>
-                                <div class="panel-body">
-                                    <h1><sup>$</sup>999<small>/month</small></h1><!-- Plan Price -->
-                                </div>
-
-                                <!-- Plan Feature Lists -->
-                                <ul class="list-unstyled">
-                                    <li>ArcGIS Online Analytics</li>
-                                    <li>ArcGIS Server Analytics</li>    
-                                    <li>Unlimited Users</li>
-                                    <li>Unlimited Maps</li>
-                                    <li>Unlimited Visitors per Month</li>
-                                    <li>200 MB Storage</li>
-                                    <li>
-                                        <a href="book-a-demo.html"><button type="button" class="btn btn-primary btn-block tf-btn">Book Demo to Get Sarted</button></a>
-                                        <small class="text-uppercase hide">30 Days Free Trial</small>
-                                    </li>
-                                </ul><!-- end Plan Feature Lists -->
-                            </div><!-- end pricing table wrapper -->
-                        </div><!-- end Price table #3 -->
-
-                    </div> <!-- end nested row -->
-                </div> <!-- end col 10 with offset 1 to centered -->
-            </div> <!-- end outer row -->
-        </div><!-- end container -->
+            <h3 class="subheading">
+              Map performance
+            </h3>
+            <p class="paragraph">
+              Track bounce rates and the engagement of your map to find out exactly who and if users are using your web map app to its full potential.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-map-signs" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-2px;"></i>
+              </b>
+            </div>
+            <h3 class="subheading">
+              Heatmaps
+            </h3>
+            <p class="paragraph">
+              Track your map performance from a single place and get notified when there are load issues and error logs. By tracking layers and tile, Maptiks provides web map developers an easy way to track your maps performance.
+            </p>
+          </div>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col-6">
+          <div class="sidedevices">
+            <div class="browseriphone">
+              <div class="iphone">
+                <div class="mask">
+                  <img class="mask-img" src="img/pg-mobile.png" alt="maptiks-mobile">
+                </div>
+              </div>
+              <div class="browser">
+                <div class="mask">
+                  <img class="mask-img" src="img/hero-arc.png" alt="maptiks-desktop">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="feature1">
+      <div class="container-sml">
+        <div class="col-12 text-center">
+          <h3 class="heading">
+            Track Web Map Journeys
+          </h3>
+          <p class="paragraph">
+            See how users are interacting with your ArcGIS Online maps and gain unprecedented user engagement insights. With the activity heatmap, you can quickly view the most active sections of your map at a glance.
+          </p>
+        </div>
+      </div>
+      <div class="container-lrg centerdevices col-12">
+        <div class="browserwrapper">
+          <div class="browser">
+            <div class="mask">
+              <img class="mask-img" src="img/activities.png" alt="web-map-activities">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="feature5">
+      <div class="container-sml text-center">
+        <div class="col-12">
+          <h3 class="heading">
+            Transparent, open and accessible<br>
+          </h3>
+        </div>
+      </div>
+      <div class="container-lrg flex">
+        <div class="col-5 centervertical">
+          <div class="steps">
+            <div class="emoji">
+              <b>
+              <i class="fa fa-commenting" aria-hidden="true" style="font-size:44px;color:#c2c2c2;margin-top:-5px;margin-left:7px"></i>
+              </b>
+            </div>
+            <h3 class="subheading">
+              Keep residents, departments and management informed
+            </h3>
+            <p class="paragraph">
+              Having a succesful cross-functional GIS initiative should provide internal stakeholders with access to information, making it easier to coordinate and plan capital projects, operate parks and transportation, and manage environmental needs. More importantly, the public can search publicly available datasets including administrative boundaries, transportation projects, land use, facilities, and infrastructure data. Maptiks helps keep all stakeholders informed and on the same page.
+            </p>
+          </div>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col-6">
+          <div class="sidedevices">
+            <div class="browseriphone">
+              <div class="browser">
+                <div class="mask">
+                  <img class="mask-img" src="img/data.jpg" alt="maptiks-desktop">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-   
 
-    <!-- Footer 
-    ================================================== -->
-    <div id="tf-footer">
-        <div class="container"><!-- container -->
-            <p class="pull-left">© 2016 Maptiks. All rights reserved.</p> <!-- copyright text here-->
-            <ul class="list-inline social pull-right hide">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li> <!-- Change # With your FB Link -->
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li> <!-- Change # With your Twitter Link -->
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li> <!-- Change # With your Google Plus Link -->
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li> <!-- Change # With your Dribbble Link -->
-                <li><a href="#"><i class="fa fa-behance"></i></a></li> <!-- Change # With your Behance Link -->
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> <!-- Change # With your LinkedIn Link -->
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li> <!-- Change # With your Youtube Link -->
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li> <!-- Change # With your Pinterest Link -->
-            </ul>
-        </div><!-- end container -->
+
+    <div class="feature2">
+      <div class="container-lrg flex">
+        <div class="col-6">
+          <b class="emoji">
+          <img class="case-icon" src="img/derby-square.png" alt="maptiks-case-study-derbyshire">
+          </b>
+          <h3 class="subheading">
+            Derbyshire County<br>
+          </h3>
+          <p class="paragraph">
+            Derbyshire County tracks gritting routes and snow removal map and redesigns for better user experience.<br>
+            <a target="_blank" href="https://drive.google.com/file/d/0B-qi3T7IHstGcWs3SlRLWUt4eWs/view?usp=sharing">Download case study</a>
+          </p>
+        </div>
+        <div class="col-6">
+          <b class="emoji">
+          <img class="case-icon" src="img/pg-square.png" alt="maptiks-case-study-prince-george">
+          </b>
+          <h3 class="subheading">
+            City of Prince George<br>
+          </h3>
+          <p class="paragraph">
+            The City of Prince George tracks city construction map and launches single web map app.<br>
+            <a target="_blank" href="https://drive.google.com/file/d/0B-qi3T7IHstGX2NrZzczd0dhVFk/view?usp=sharing">Download case study</a>
+          </p>
+        </div>
+      </div>
     </div>
-    
+    <div class="socialproof">
+      <div class="container-sml">
+        <div class="flex text-center">
+          <div class="col-12">
+            <h4 class="subheading">
+              "Maptiks has given our organization the ability to quickly roll out an analytics-ready application for a client and show them exactly what part of the map that people are most interested in"
+            </h4>
+            <p class="paragraph">
+              Chris Rice - Interdev<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="logos flex">
+          <img class="col-3" src="img/strava.png" alt="strave">
+          <img class="col-3" src="img/geojobe.jpg" alt="geojobe">
+          <img class="col-3" src="img/interdev.png" alt="interdev">
+          <img class="col-3" src="img/digital-globe.png" alt="digital-globe">
+          <img class="col-3" src="img/pg-city.png" alt="pg-city">
+          <img class="col-3" src="img/harvard.jpg" alt="harvard-logo">
+          <img class="col-3" src="img/datacapable.png" alt="datacapable">
+          <img class="col-3" src="img/derbyshire.png" alt="derbyshire-county">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container-lrg center">
+        <div class="col-7">
+          <h5 class="heading">
+            Book a Demo!
+          </h5>
+          <h3 class="subheading">Find out if analytics can help your team.</h3>
+        </div>
+        <div class="col-5">
+          <div class="ctas text-right">
+            <a class="ctas-button" href="book-demo.html">
+              Book a Demo
+            </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="container-sml footer-nav text-center">
+      <a href="https://marketplace.arcgis.com/listing.html?id=a5e4a3e9746049dab0cbaf136b61666e" target="_blank"><img src="img/badge-localgovernment.png" class="intro-logo img-responsive" alt="free-template"></a> 
+        <div class="col-12">
+          <div>
+            <a class="nav-link" target="_blank" href="https://twitter.com/maptiks">
+              Twitter
+            </a>
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/maptiks/">
+              Facebook
+            </a>
+            <a class="nav-link" target="_blank" href="https://maptiks.zendesk.com/hc/en-us">
+              Support
+            </a>
+            <a class="nav-link" target="_blank" href="https://analytics.maptiks.com/#/terms">
+              TOS
+            </a>
+            <a class="nav-link" target="_blank" href="https://analytics.maptiks.com/#/privacy">
+              Privacy
+            </a>
+          </div>
+          <br>
+          <div>
+            <span>
+              Copyright © 2017 spark<b>geo</b>. All rights reserved. 
+            </span>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+          </div>
 
-    <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
-
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-
-    <!-- Google Map -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
-    <script type="text/javascript" src="js/map.js"></script>
-
-    <!-- Parallax Effects -->
-    <script type="text/javascript" src="js/skrollr.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.js"></script>
-
-    <!-- Portfolio Filter -->
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
-
-    <!-- LightBox Nivo -->
-    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
-
-    <!-- Contact page-->
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact.js"></script>
-
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="js/main.js"></script>
-
-     <!-- Twitter remarketing -->
-    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-    <script type="text/javascript">twttr.conversion.trackPid('l6atq', {tw_sale_amount: 0, tw_order_quantity: 0});</script>
-    <!-- Autopilot CRM -->
-    <script type="text/javascript">
-      (function () {
-        var c = encodeURIComponent, s = "SCRIPT", d = document, e = d.createElement(s), t = d.getElementsByTagName(s)[0], p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || "");
-        e.src = "https://api.autopilothq.com/anywhere/800554eb196a47b59cab00d3dcb913537c959993966d4e75a167cb1c811395d3?" + p;
-        e.type = "text/javascript";
-        e.async = true;
-        t.parentNode.insertBefore(e, t);
-      })();
-      (function () {
-        var c = encodeURIComponent, s = "SCRIPT", d = document, e = d.createElement(s), t = d.getElementsByTagName(s)[0];
-        e.src = "https://api.autopilothq.com/anywhere/aa/800554eb196a47b59cab00d3dcb913537c959993966d4e75a167cb1c811395d3";
-        e.type = "text/javascript";
-        e.async = false;
-        t.parentNode.insertBefore(e, t);
-        window.AutopilotAnywhere = {
-          _runQueue: [], run: function () {
-            this._runQueue.push(arguments);
-          }
-        };
-        if (!window.Autopilot) window.Autopilot = window.AutopilotAnywhere;
-      })();
-    </script>
-
-    <!-- Facebook Conversion Code for Landing Page -->
-    <script>
-      (function () {
-        var _fbq = window._fbq || (window._fbq = []);
-        if (!_fbq.loaded) {
-          var fbds = document.createElement('script');
-          fbds.async = true;
-          fbds.src = '//connect.facebook.net/en_US/fbds.js';
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(fbds, s);
-          _fbq.loaded = true;
-        }
-      })();
-      window._fbq = window._fbq || [];
-      window._fbq.push(['track', '6026993221004', {'value': '0.00', 'currency': 'USD'}]);
-    </script>
-
-
-    <!-- Zarget Optimizing -->
-    <script src='//cdn.zarget.com/82221/108807.js'></script>
-    <!-- sumo -->
-    <script src="//load.sumome.com/" data-sumo-site-id="17325e467a202f2be0edd9b6d9f2f29037976fab69b261ddab2ff2a38347ec0f" async="async"></script>
-    <!-- Optimizely a/b -->
-    <script src="//cdn.optimizely.com/js/3522850172.js"></script>
-    <!-- Google Code for Remarketing Tag -->
-    <script type="text/javascript">
-      /* <![CDATA[ */
-      var google_conversion_id = 984344571;
-      var google_custom_params = window.google_tag_params;
-      var google_remarketing_only = true;
-      /* ]]> */
-    </script>
-    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-
+        </div>
+      </div>
+    </div>
   </body>
 </html>
