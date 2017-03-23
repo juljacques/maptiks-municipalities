@@ -334,6 +334,87 @@
 
         </div>
       </div>
-    </div>
+      <!-- remarketing and targeted ads -->
+    </div>    <!-- Optimizely a/b -->
+    <script src="//cdn.optimizely.com/js/3522850172.js"></script>
+    <!-- Google Code for Remarketing Tag -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 984344571;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <!-- Google Code for Remarketing Tag -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var google_conversion_id = 984344571;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    <script type="text/javascript">
+      !function () {
+        var analytics = window.analytics = window.analytics || [];
+        if (!analytics.initialize)if (analytics.invoked)window.console && console.error && console.error("Segment snippet included twice."); else {
+          analytics.invoked = !0;
+          analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "group", "track", "ready", "alias", "page", "once", "off", "on"];
+          analytics.factory = function (t) {
+            return function () {
+              var e = Array.prototype.slice.call(arguments);
+              e.unshift(t);
+              analytics.push(e);
+              return analytics
+            }
+          };
+          for (var t = 0; t < analytics.methods.length; t++) {
+            var e = analytics.methods[t];
+            analytics[e] = analytics.factory(e)
+          }
+          analytics.load = function (t) {
+            var e = document.createElement("script");
+            e.type = "text/javascript";
+            e.async = !0;
+            e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+            var n = document.getElementsByTagName("script")[0];
+            n.parentNode.insertBefore(e, n)
+          };
+          analytics.SNIPPET_VERSION = "3.0.1";
+          analytics.load("VoM3hNN5K7sDJRwaMuCQKDwjaXYIN2Z5");
+          analytics.page()
+        }
+      }();
+    </script>
+
+    <!-- Twitter remarketing -->
+    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+    <script type="text/javascript">twttr.conversion.trackPid('l6atq', {tw_sale_amount: 0, tw_order_quantity: 0});</script>
+    <!-- Autopilot CRM -->
+    <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="800554eb196a47b59cab00d3dcb913537c959993966d4e75a167cb1c811395d3",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};if(!o.noaa){z(b+"aa/"+t+'?'+p,false)};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
+
+    <!-- Facebook Conversion Code for Landing Page -->
+    <script>
+      (function () {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+          var fbds = document.createElement('script');
+          fbds.async = true;
+          fbds.src = '//connect.facebook.net/en_US/fbds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fbds, s);
+          _fbq.loaded = true;
+        }
+      })();
+      window._fbq = window._fbq || [];
+      window._fbq.push(['track', '6026993221004', {'value': '0.00', 'currency': 'USD'}]);
+    </script>
+    <noscript>
+      <img height="1" width="1" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/984344571/?value=0&amp;guid=ON&amp;script=0"/>
+      <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6atq&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0"/>
+      <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6atq&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0"/>
+      <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6026993221004&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1"/>
+    </noscript>    
   </body>
 </html>
