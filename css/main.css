@@ -14,6 +14,11 @@ light green #567C5C
 #c2c2c2
 */
 
+.margin-top-minus-60 {
+	margin-top: -60px;
+}
+
+
 .margin-top-60 {
 	margin-top: 60px;
 }
@@ -231,6 +236,7 @@ p.paragraph {
 	border: 1px solid white;
 	text-decoration: none;
 	color: #66a6ff;
+	cursor: pointer; 
 }
 @media (max-width: 440px) {
 	.ctas-input,
@@ -271,6 +277,7 @@ p.paragraph {
 	letter-spacing: .3px;
 	border: 1px solid white;
 	text-decoration: none;
+	cursor: pointer; 
 }
 .ctas-button-2 {
 	background: transparent;
@@ -328,6 +335,7 @@ p.paragraph {
 	letter-spacing: .3px;
 	border: 1px solid white;
 	text-decoration: none;
+	cursor: pointer;
 }.feature3 {
 	padding: 90px 0;
 	border-bottom: 1px solid rgba(0,0,0,.1);
